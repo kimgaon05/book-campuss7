@@ -1,0 +1,27 @@
+.container { max-width: 1200px; margin: 0 auto; padding: 20px; font-family: sans-serif; }
+.header { text-align: center; margin-bottom: 30px; background: #f4f6f9; padding: 20px; border-radius: 8px; }
+.search-bar { width: 100%; padding: 12px; font-size: 16px; border: 1px solid #ddd; border-radius: 6px; }
+.main-content { display: flex; gap: 30px; margin-top: 20px; }
+.list-section { flex: 1; }
+.chat-section { flex: 1; background: #fafafa; padding: 20px; border-radius: 8px; border: 1px solid #eee; }
+.grid { display: flex; flex-direction: column; gap: 15px; }
+.card { padding: 15px; border: 1px solid #e0e0e0; border-radius: 8px; cursor: pointer; transition: 0.2s; }
+.card:hover { border-color: #007bff; background: #fbfdff; }
+.price { color: #28a745; font-weight: bold; }
+.badge { display: inline-block; padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: bold; }
+.badge.판매중 { background: #e3f2fd; color: #0d47a1; }
+.badge.예약중 { background: #fff3e0; color: #e65100; }
+.badge.거래완료 { background: #e8f5e9; color: #1b5e20; }
+.chat-box { display: flex; flex-direction: column; height: 400px; }
+.chat-info { background: #fff; padding: 10px; border-radius: 6px; margin-bottom: 10px; border-bottom: 2px solid #ddd; }
+.btn-group { margin-top: 10px; }
+.btn { padding: 8px 12px; border: none; border-radius: 4px; cursor: pointer; font-weight: bold; margin-right: 5px; }
+.promise-btn { background: #ff9800; color: white; }
+.complete-btn { background: #4caf50; color: white; }
+.message-list { flex: 1; overflow-y: auto; background: white; padding: 10px; border-radius: 6px; border: 1px solid #ddd; margin-bottom: 10px; }
+.message { margin-bottom: 8px; padding: 6px; border-radius: 4px; }
+.message.system { background: #fff3cd; color: #856404; font-size: 13px; text-align: center; }
+.message.user { background: #e2e3e5; }
+.chat-input-form { display: flex; gap: 10px; }
+.chat-input-form input { flex: 1; padding: 8px; }
+.chat-input-form button { padding: 8px 15px; background: #007bff; color: white; border: none; cursor: pointer; }
